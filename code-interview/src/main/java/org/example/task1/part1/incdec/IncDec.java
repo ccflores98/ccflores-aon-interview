@@ -1,4 +1,4 @@
-package org.example.task1.incdec;
+package org.example.task1.part1.incdec;
 
 public interface IncDec
 {

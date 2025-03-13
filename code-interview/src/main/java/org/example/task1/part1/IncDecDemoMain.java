@@ -1,7 +1,7 @@
-package org.example.task1;
+package org.example.task1.part1;
 
-import org.example.task1.incdec.IncDec;
-import org.example.task1.incdec.MyIncDec;
+import org.example.task1.part1.incdec.IncDec;
+import org.example.task1.part1.incdec.MyIncDec;
 
 import java.lang.reflect.Proxy;
 

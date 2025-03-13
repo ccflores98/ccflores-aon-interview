@@ -1,4 +1,4 @@
-package org.example.task1;
+package org.example.task1.part1;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
