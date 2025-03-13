@@ -13,7 +13,7 @@ public class IncDecDemoMain {
 
         // Creating a proxy instance
         IncDec proxyIncDec = (IncDec) Proxy.newProxyInstance(
-                MyIncDec.class.getClassLoader(),
+                IncDec.class.getClassLoader(),
                 new Class[]{IncDec.class},
                 new TimingInvocationHandler(myIncDec)
         );
