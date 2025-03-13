@@ -1,0 +1,15 @@
+boolean checkStudy(Student student) {
+    if (student == null) {
+        return false;
+    }
+    if (!student.isLoggedIn()) {
+        return false;
+    }
+    if (!"Lee".equals(student.getTeacherName())) {
+        return false;
+    }
+    if (!student.isEnrolledInMaths()) {
+        return false;
+    }
+    return student.hasDistinction();
+}
